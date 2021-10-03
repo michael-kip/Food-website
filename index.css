@@ -37,7 +37,26 @@
     text-align: center;
     margin-bottom: 100px;
 }
+.explore-menu{
+    background-color: lightgray;
+}
 .explore-menu .row{
     display: flex;
-    
+    flex-direction: row;
+    margin: 60px;
+    justify-content: space-evenly;
+}
+.explore-menu .row .burger-name{
+    width: 20%;
+    padding: 10px 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 0 0 50px 0;
+}
+.burger-name p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    text-align: center;
+    float: right;
 }
