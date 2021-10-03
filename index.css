@@ -18,3 +18,22 @@
     font-weight: 900;
     border-radius: 200px;
 }
+.eat-together{
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.img{
+    width: 60%;
+}
+.eat-together > div{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 0px;
+    padding: 2px;
+}
+.eat-text{
+    text-align: center;
+    margin-bottom: 100px;
+}
