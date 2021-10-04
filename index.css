@@ -63,3 +63,22 @@
 .hot-deals .{
 
 }
+.footer{
+    display: flex;
+    background-color: #F0FAEC;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+}
+.open-hours{
+    width: 300px;
+    border-right: 2px dotted #6BB946;
+}
+.locate-us{
+    width: 400px;
+    padding: 20px;
+}
+.FOLLOW{
+    display: flex;
+}
