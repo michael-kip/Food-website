@@ -23,6 +23,9 @@
 
 ## Reference
 
+## Known Bugs
+The header, navigation, code can't run properly, it has bugs which interfer with the software
+
 ## Licence
 
 MIT License
