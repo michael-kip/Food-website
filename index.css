@@ -1,11 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    font-family: "Poppins" sans-serif;
+}
+.heading{
+    background-color: lightgrey;
+    height: 100vh;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    justify-content: space-between;
+    text-align: center;
+}
+nav > li{
+    margin-top: 100px;
+    list-style: none;
+    padding: 0 50px;
+}
+nav > li > a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.star img{
+    width: 150px;
+    height: 150px;
+}
 
+.eclipse{
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    background-color: #649549;
+    width: 150vw;
+    height: 70vh;
+    transform: translateX(50%);
+}
+.street-food{
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 130px;
+}
+.street-food > h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #649549;
+}
+.street-food > h1 > span{
+    color: orange;
+}
+.eating-couple{
+    position: relative;
+}
+.street-food > p{
+    font-size: 18px;
+}
+.street-food > button{
+    background-color: #649549;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.dish-decoration{
+    overflow: hidden;
+    border: 3px dashed #649549;
+    margin-top: 380px;
+    margin-left: 400px;
+    width: 550px;
+    height: 600px;
+    border-radius: 50%;
+}
+.dish-decoration img{
+    z-index: 1;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 220px;
+    width: 100px;
+    height: 100px;
+}
+.dish-decoration img:first-child{
+    transform: rotate(0deg) translateY(-250px);
+}
+.dish-decoration img:nth-child(2){
+    transform: rotate(45deg) translateY(-250px);
+}
+.dish-decoration img:nth-child(3){
+    transform: rotate(90deg) translateY(-250);
+}
+.dish-decoration img:nth-child(4){
+    transform: rotate(-45deg) translateY(-250);
+}
+.dish-decoration img:nth-child(5){
+    transform: rotate(-90deg) translateY(-250);
+}
+.burger{
+    position: relative;
+    margin-left: 63%;
+    bottom: 15%;
+}
+.burger img{
+    width: 300px;
+    height: 300px;
+}
+.eating-text{
+    margin: 300px 330px 0 0;
+    float: right;
+    text-align: center;
+}
+.eating-text > h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: orange;
+}
+.eating-text > p{
+    font-size: 20px;
+}
 
+.explore-menu{
+    z-index: -1;
+    background-color: lightgrey;
+    margin: 0 70px;
+    padding-bottom: 100px;
+    height: auto;
+}
+.explore-menu > h1{
+    text-align: center;
+    padding-top: 50px;
 
+}
+.explore-menu >h1 > span{
+    color: #649549;
 
+}
+.row{
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+}
 
+.image{
+    padding: 50px;
+}
+.image img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 150px;
+    width: 200px;
+}
+.burger-name{
+    width: 350px;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    margin-left: 120px;
+}
+.burger-name > p{
+    margin-left: 80px;
+    text-align: center;
 
-.button{
+}
+
+.hot-deals{
+    margin: 0 70px;
+    position: relative;
+    background-color: #c9ecb5;
+
+}
+.special-pack{
+    position: relative;
+    margin-top: 150px;
+    right: 300px;
+    float: right;
+}
+.special-pack > h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #649549;
+}
+.special-pack > h3{
+    font-weight: 500;
+    font-size: 35px;
+}
+.hot-deals > h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.hot-deals > h1 > span{
+    color: #649549;
+}
+.hot-deals > .first {
+    position: relative;
+    bottom: 190px;
+    left: 200px;
+    height: 850px;
+}
+.hot-deals > .second{
+    position: relative;
+    width: 650px;
+    right: 300px;
+    bottom: 130px;
+}
+
+.contact-us{
+    margin: 0 70px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(246, 204, 204);
+}
+.contact-us > h1 > span{
+    color: #649549;
+}
+.contact-us p{
+    font-size: 20px;
+    padding: 20px 30px;
+    width: 600px;
+    background-color: white;
+    border-radius: 30px;
+    border-style: none;
+}
+.contact-us > form > button{
+    width: 200px;
+    border-style: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 20px 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    background-color: #649549;
+}
+.contact-us > form > input{
+    font-size: 20px;
+    width: 600px;
+    padding: 20px 30px;
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 70px 70px;
+    background-color: lightgrey;
+    height: auto;
+
+}
+.right{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.right .open-hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.FOLLOW{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.FOLLOW .open-hours{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.FOLLOW .open-hours p{
+    margin: 10px;
+}
+.locate-us button{
+    background-color: #649549;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    margin: auto 20px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    width: 150px;
+}
+.footer h3{
+    font-size: 22px;
+}
+.line{
+    height: 100px;
+    border: 2px dashed #649549;
+    margin: 0 20px;
+}
+.locate-us{
+    display: flex;
+    flex-direction: column;
+}
+.locate-us i{
+    margin-left: 33px;
+}
+
+/*.button{
     display: inline-block;
     text-transform: capitalize;
     text-decoration: none;
@@ -122,4 +429,4 @@ input[type = email]{
 }
 .socials p{
     color: #1F201E;
-}
+}*/
