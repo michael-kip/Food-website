@@ -1,6 +1,22 @@
 .section_one{
     background-color: rgb(209, 208, 208);
+    height: 500px;
+    margin: 0;
+    overflow: hidden;
+    
+
 }
+.nav{
+    margin-left: 25px;
+    
+}
+.nav > nav > ul{
+    justify-content: ;
+    display: flex;
+    margin-left:10px;
+    width: 70%vw;
+}
+
 
 ul {
     list-style-type: none;
@@ -10,21 +26,77 @@ ul {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-   
-
-    
 }
-/* li .a{
+.spacing{
     display: flex;
-    flex-direction: row;
-    float: right;
-    text-decoration: none;
-    list-style-type: none; */
+    justify-content: space-between;
+    margin-right: 50px;
+    width: 200px;
 }
+    
 
+.eclipse {
+    display: flex;
+    position: ;
+    background-color: #649549;
+    z-index: 0;
+    position: relative;
+    width: 920px;
+    margin-left: 10px;
+    margin-top: -375px;
+    transform: translate(50%);
+    overflow: hidden;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    align-items: stretch;
+    /*
+	background: #649549;
+	width: 70vw;
+	height: 70vh;
+	transform: translateX(50%);*/
+}
+.dish_decoration{
+    display: flex;
+    overflow: hidden;
+    border: 2px dashed #649549;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 275vw;
+    border-radius: 50px;
+}
+.nav_eclipse > ul > li {
+    width: 138px;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.
+}
+.explore-menu > h4 > span{
+    color: lightgreen;
+}
+.explore-menu > h4{
+    font-size: 30px;
+}
+.eat-together > h3{
+    color: #EAAB1B;
+    font-size: 30px;
+}
+.section_one > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.street-food{
+    margin-left: 0px;
+}
 .sfood{
-    padding-left:200px ;
+    padding-left:20px;
+    margin-left: 10px;
 
+}
+.sfood > h1 > span {
+    color: #EAAB1B;
+}
+.sfood > h1{
+    color: lightgreen;
 }
 .eat-together {
     display: flex;
@@ -37,9 +109,20 @@ padding-top: 200px;
 .eat-together img{
     width: 50%;
     display: flex ;
-    
-   
+       
 }
+.sfood button{
+    background-color: #649549;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	border-style: none;
+	border-radius: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
 .explore-menu{
     background-color: rgb(209, 208, 208);
 margin-right: 50px;
@@ -55,11 +138,15 @@ padding-top: 10px;
 }
 .hot-deals{
     margin-right: 50px;
-margin-left: 50px;
-    background-color: lightgreen;
+    margin-left: 50px;
+    background-color: #C9ECB5;
+    font-size: 30px;
+}
+.hot-deals  #deals{
+    color: lightgreen;
 }
 .row img{
- /* position: relative;git 
+ /* position: relative;
     display: flex;
     width:200px;
     flex-direction: row;
@@ -124,16 +211,27 @@ margin-top: -205px;
     
 }
 .contact-us{
-    background-color:#EAAB1B ;
+    background-color: #FFD77C ;
     margin-right: 50px;
     margin-left: 50px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.contact-us > form > button{
+    background-color: #649549;
+	font-weight: 300;
+	color: white;
+	font-size: 10px;
+	margin: 10px 0;
+	padding: 10px 20px;
+	border-radius: 20px;
+	border-style: none;
+	width: 100px;
+}
 .footer
 {
-background-color: rgb(209, 208, 208);
+background-color: lightgray;
 margin-right: 50px;
 margin-left: 50px;
 }
@@ -145,8 +243,25 @@ margin-left: 50px;
 .open-hours{
     padding-right: 40px;
     padding-left: 35px;
+    
 }
 .FOLLOW{padding-left: 420px;}
 .locate-us{
     padding-top: 48px;
+}
+.locate-us button{
+    background-color: #649549;
+	font-weight: 300;
+	color: white;
+	font-size: 10px;
+	margin: auto 10px;
+	height: 25px;
+	border-radius: 15px;
+	border-style: none;
+	width: 75px;
+}
+.border{
+    height: 200px;
+	border: 2px dashed #649549;
+	margin: 0 20px;
 }
